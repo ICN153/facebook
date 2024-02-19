@@ -43,17 +43,22 @@ a {
 .img-content {
   width: 250px;
 }
-.formulario {
-  margin: 25px;
+
+.form {
+  display: flex;
+  margin: 20px;
+  column-gap: 15px;
+  color: var(--blank);
+  font-weight: bold;
+}
+input {
+  display: block;
+  border-radius: 1px;
+  border: transparent;
+  height: 24px;
 }
 
-input[type="email"],
-input[type="password"] {
-  padding: 5px 20px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-button[type="submit"] {
-  padding: 5px 20px;
+input[type="submit"] {
+  display: flex;
+  margin: 20px;
 }
